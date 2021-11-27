@@ -54,6 +54,8 @@ void *xcalloc(size_t nmemb, size_t size)
 
 char *xstrdup(const char *s)
 {
+	printf("Hello");
+
 	char *res;
 
 	res = strdup(s);
